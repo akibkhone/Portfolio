@@ -226,17 +226,54 @@ section .aside-heading {
 
 /* ======= contact ======= */
 
+/* ======= contact ======= */
+
 .contact_field{
-  width: 40%;
+  width: 100%;
+  max-width: 400px;
   border-radius: .5rem;
   padding: 1rem;
-  border: 1.5px;
+  border: 1.5px solid;
 }
 
 .button{
   border-radius: 30px;
   transition: 0.5s;
 }
+
+@media only screen and (min-width: 320px) {
+  .contact_field{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .contact_field{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .contact_field{
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .contact_field{
+    font-size: 20px;
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .contact_field{
+    font-size: 22px;
+    width: 30%;
+  }
+}
+
 
 /* ======= Footer ======= */
 footer {
